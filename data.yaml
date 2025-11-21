@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['plate_license', 'faces']
+
+roboflow:
+  workspace: platelicensekitti
+  project: face-and-license
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/platelicensekitti/face-and-license/dataset/3
